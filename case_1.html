@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AssignmentCase1</title>
+    <link rel="stylesheet" href="asset/normalize.css">
+</head>
+
+<style>
+
+    body {
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+    }
+
+    #circle1 {
+        width: 45%;
+        aspect-ratio: 1/1;
+
+        background-color: white;
+        border-radius: 50%;
+
+        position: absolute;
+
+        top: -50%;
+        left: -25%;
+
+    }
+    #circle2 {
+        width: 45%;
+        aspect-ratio: 1/1;
+
+        background-color: white;
+        border-radius: 50%;
+
+        position: absolute;
+
+        top: -50%;
+        right: -25%;
+    }
+
+    #circle3 {
+        width: 45%;
+        aspect-ratio: 1/1;
+
+        background-color: white;
+        border-radius: 50%;
+
+        position: absolute;
+
+        bottom: -50%;
+        left: -25%;
+    }
+
+    #circle4 {
+        width: 45%;
+        aspect-ratio: 1/1;
+
+        background-color: white;
+        border-radius: 50%;
+
+        position: absolute;
+
+        bottom: -50%;
+        right: -25%;
+    }
+
+    #middleLineCircle1 {
+        width: 15%;
+        aspect-ratio: 1/1;
+
+        background-color: white;
+        border-radius: 50%;
+
+        position: absolute;
+
+        left: 0;
+        right: 0;
+        top: -100%;
+        bottom: 0;
+        margin: auto;
+    }
+
+    #middleLineCircle2 {
+        width: 15%;
+        aspect-ratio: 1/1;
+
+        background-color: white;
+        border-radius: 50%;
+
+        position: absolute;
+
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: -100%;
+        margin: auto;
+    }
+
+    #squareMiddle {
+        width: 15%;
+        aspect-ratio: 1/1;
+
+        background-color: white;
+
+        position: absolute;
+
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+
+
+    #maindiv1 {
+        width: 50%;
+        height: 50%;
+        background-color: #ff002e;
+
+        position: absolute;
+    }
+
+    #maindiv2 {
+        width: 50%;
+        height: 50%;
+        background-color: #0ac013;
+
+        left: 50%;
+
+        position: absolute;
+    }
+
+    #maindiv3 {
+        width: 50%;
+        height: 50%;
+        background-color: #fd9807;
+
+        top: 50%;
+
+        position: absolute;
+    }
+
+    #maindiv4 {
+        width: 50%;
+        height: 50%;
+        background-color: #ee519b;
+
+        top: 50%;
+        left: 50%;
+
+
+        position: absolute;
+    }
+
+    #squareCenterCircle1 {
+        width: 15%;
+        aspect-ratio: 1/1;
+
+        background-color: white;
+        border-radius: 50%;
+
+        position: absolute;
+
+        right: 67%;
+        top: 9%;
+    }
+
+    #squareCenterCircle2 {
+        width: 15%;
+        aspect-ratio: 1/1;
+
+        background-color: white;
+        border-radius: 50%;
+
+        position: absolute;
+
+        left: 67%;
+        top: 9%;
+    }
+
+    #squareCenterCircle3 {
+        width: 15%;
+        aspect-ratio: 1/1;
+
+        background-color: white;
+        border-radius: 50%;
+
+        position: absolute;
+
+        right: 67%;
+        bottom: 10%;
+    }
+
+    #squareCenterCircle4 {
+        width: 15%;
+        aspect-ratio: 1/1;
+
+        background-color: white;
+        border-radius: 50%;
+
+        position: absolute;
+
+        left: 67%;
+        bottom: 10%;
+    }
+
+    #redCircle {
+        width: 9%;
+        aspect-ratio: 1/1;
+
+        background-color: red;
+        border-radius: 50%;
+
+        position: absolute;
+
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+
+    #redSquare1 {
+        width: 45%;
+        aspect-ratio: 1/1;
+
+        background-color: red;
+
+        position: absolute;
+
+        left: 28%;
+        top: 27%;
+    }
+
+    #redSquare2 {
+        width: 45%;
+        aspect-ratio: 1/1;
+
+        background-color: red;
+
+        position: absolute;
+
+        left: 28%;
+        top: 27%;
+    }
+
+    #redSquare3 {
+        width: 45%;
+        aspect-ratio: 1/1;
+
+        background-color: red;
+
+        position: absolute;
+
+        left: 28%;
+        top: 27%;
+    }
+
+    #redSquare4 {
+        width: 45%;
+        aspect-ratio: 1/1;
+
+        background-color: red;
+
+        position: absolute;
+
+        left: 28%;
+        top: 27%;
+    }
+
+
+
+
+</style>
+
+
+<body>
+
+<section>
+
+
+    <div id="maindiv1">
+        <div id="circle1"></div>
+    </div>
+
+    <div id="maindiv2">
+        <div id="circle2"></div>
+    </div>
+
+    <div id="maindiv3">
+        <div id="circle3"></div>
+    </div>
+
+    <div id="maindiv4">
+        <div id="circle4"></div>
+    </div>
+
+    <div id="middleLineCircle1"></div>
+    <div id="middleLineCircle2"></div>
+
+    <div id="squareMiddle"></div>
+
+    <div id="squareCenterCircle1">
+        <div id="redSquare1"></div>
+    </div>
+    <div id="squareCenterCircle2">
+        <div id="redSquare2"></div>
+    </div>
+    <div id="squareCenterCircle3">
+        <div id="redSquare3"></div>
+    </div>
+    <div id="squareCenterCircle4">
+        <div id="redSquare4"></div>
+    </div>
+
+    <div id="redCircle"></div>
+
+
+
+
+
+
+</section>
+
+
+
+
+
+
+
+</body>
+</html>
