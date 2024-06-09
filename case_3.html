@@ -24,7 +24,7 @@
 
     #border_circle2 {
         border-radius: 50%;
-        border: 15px solid red;
+        border: 16px solid red;
         position: fixed;
         height: 370px;
         width: 370px;
@@ -36,118 +36,46 @@
         margin: auto;
     }
 
+    section > div {
+        height: 400px;
+        width: 400px;
+        text-align: center;
+        border-radius: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        font-family: "Outfit SemiBold", sans-serif;
+        font-size: xxx-large;
+    }
+
     #hello {
-        border-radius: 50%;
-        background-color: purple;
-        position: absolute;
-        height: 370px;
-        width: 370px;
-
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        margin: auto;
-    }
-
-    #welcome_to {
-        border-radius: 50%;
-        background-color: deepskyblue;
-        position: absolute;
-        height: 370px;
-        width: 370px;
-
-        top: 200vh;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        margin: auto;
-    }
-
-    div>h1 {
-        position: relative;
-
-        top: 160px;
-        bottom: 0;
-        left: 0px;
-        right: 0;
-        margin: auto;
-        font-family: Arial;
+        margin-top: 12%;
+        line-height: 400px;
+        background-color: #9900ff;
         color: white;
-        height: fit-content;
-        width: fit-content;
     }
 
-    #IJSE  {
-
-        border-radius: 50%;
-        background-color: darkorange;
-        position: absolute;
-        height: 370px;
-        width: 370px;
-
-        top: 400vh;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        margin: auto;
-
-    }
-
-    div>div>h1 {
-
-        position: relative;
-
-        top: 120px;
-        bottom: 0;
-        left: 0px;
-        right: 0;
-        margin: auto;
-        font-family: Arial;
+    #welcome {
+        margin-top: 40%;
+        line-height: 400px;
+        background-color: dodgerblue;
         color: white;
-        height: fit-content;
-        width: fit-content;
-
     }
 
-    #empty {
-        border-radius: 50%;
-        background-color: White;
-        position: absolute;
-        height: 370px;
-        width: 370px;
-
-        top: 429.65vh;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        margin: auto;
+    #IJSE {
+        margin-top: 40%;
+        background-color: #f37c04;
+        color: white;
+        margin-bottom: 13%;
     }
 
+    #IJSE > div {
+        padding-top: 15vh;
+    }
 
 
 </style>
 
 <body>
-
-<div id="hello">
-    <h1>Hello</h1>
-</div>
-
-<div id="welcome_to">
-    <h1>Welcome To</h1>
-</div>
-
-<div id="empty"></div>
-
-<div id="IJSE">
-    <div>
-        <h1>Institute</h1>
-        <h1>of</h1>
-        <h1>Software</h1>
-        <h1>Engineering</h1>
-    </div>
-</div>
 
 
 <div id="border_circle1">
@@ -156,9 +84,23 @@
 
 </div>
 
+<section>
 
+    <div id="hello">
+        Hello
+    </div>
 
+    <div id="welcome">
+        Welcome To
+    </div>
 
+    <div id="IJSE">
+        <div>
+            Institute of Software Engineering
+        </div>
+    </div>
+
+</section>
 
 
 </body>
